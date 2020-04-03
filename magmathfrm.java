@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Launa Bucher-Austin
+ * This program will perform all math operations from the inputted numbers.
+ * April 3 2020
  */
 
 /**
@@ -374,7 +374,7 @@ public class magmathfrm extends javax.swing.JFrame {
     }//GEN-LAST:event_mintxt2ActionPerformed
 
     private void maxbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_maxbtnActionPerformed
-        
+        // declare variables
         double num1;
         double num2;
         double max;
@@ -387,7 +387,7 @@ public class magmathfrm extends javax.swing.JFrame {
     }//GEN-LAST:event_maxbtnActionPerformed
 
     private void minbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_minbtnActionPerformed
-       
+       // declare variables
         double num1;
         double num2; 
         double min;
@@ -402,7 +402,8 @@ public class magmathfrm extends javax.swing.JFrame {
     }//GEN-LAST:event_minbtnActionPerformed
 
     private void powbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_powbtnActionPerformed
-       double num1; 
+       // declare variables
+        double num1; 
        double num2; 
        double pow;
        num1 = Integer.parseInt(powtxt.getText());
@@ -414,6 +415,7 @@ public class magmathfrm extends javax.swing.JFrame {
     }//GEN-LAST:event_powbtnActionPerformed
 
     private void hypotbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hypotbtnActionPerformed
+       // declare variables
        double num1; 
        double num2;
        double hypot; 
@@ -425,6 +427,7 @@ public class magmathfrm extends javax.swing.JFrame {
     }//GEN-LAST:event_hypotbtnActionPerformed
 
     private void ceilbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ceilbtnActionPerformed
+        // declare variables
         double num1; 
         double ceil; 
         
@@ -435,6 +438,7 @@ public class magmathfrm extends javax.swing.JFrame {
     }//GEN-LAST:event_ceilbtnActionPerformed
 
     private void floorbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_floorbtnActionPerformed
+       // declare variables
         double num1;
         double floor;
         
@@ -445,6 +449,7 @@ public class magmathfrm extends javax.swing.JFrame {
     }//GEN-LAST:event_floorbtnActionPerformed
 
     private void sqrtbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sqrtbtnActionPerformed
+      // declare variables
         double num1;
         double sqrt;
         
@@ -456,6 +461,7 @@ public class magmathfrm extends javax.swing.JFrame {
     }//GEN-LAST:event_sqrtbtnActionPerformed
 
     private void radianbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_radianbtnActionPerformed
+      // declare variables
         double num1; 
         double radian; 
         
